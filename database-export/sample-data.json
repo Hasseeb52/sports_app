@@ -1,0 +1,343 @@
+{
+  "users": [
+    {
+      "uid": "user1",
+      "email": "john.organizer@example.com",
+      "displayName": "John Smith",
+      "role": "organizer",
+      "bio": "Certified yoga instructor and fitness enthusiast. Love bringing people together for healthy activities!",
+      "photoURL": "",
+      "createdAt": "2025-01-01T10:00:00Z",
+      "updatedAt": "2025-01-01T10:00:00Z"
+    },
+    {
+      "uid": "user2",
+      "email": "sarah.runner@example.com",
+      "displayName": "Sarah Johnson",
+      "role": "user",
+      "bio": "Marathon runner and outdoor adventure lover. Always up for a new challenge!",
+      "photoURL": "",
+      "createdAt": "2025-01-02T10:00:00Z",
+      "updatedAt": "2025-01-02T10:00:00Z"
+    },
+    {
+      "uid": "user3",
+      "email": "mike.coach@example.com",
+      "displayName": "Mike Davis",
+      "role": "organizer",
+      "bio": "Sports coach with 10 years experience. Passionate about community fitness and team sports.",
+      "photoURL": "",
+      "createdAt": "2025-01-03T10:00:00Z",
+      "updatedAt": "2025-01-03T10:00:00Z"
+    },
+    {
+      "uid": "user4",
+      "email": "emma.wellness@example.com",
+      "displayName": "Emma Wilson",
+      "role": "user",
+      "bio": "Wellness enthusiast and beginner yogi. Looking to connect with like-minded people!",
+      "photoURL": "",
+      "createdAt": "2025-01-04T10:00:00Z",
+      "updatedAt": "2025-01-04T10:00:00Z"
+    },
+    {
+      "uid": "user5",
+      "email": "alex.athlete@example.com",
+      "displayName": "Alex Thompson",
+      "role": "user",
+      "bio": "Former college athlete, now working professional looking to stay active and meet new people.",
+      "photoURL": "",
+      "createdAt": "2025-01-05T10:00:00Z",
+      "updatedAt": "2025-01-05T10:00:00Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "event1",
+      "title": "Sunrise Park Yoga",
+      "type": "Yoga",
+      "dateTime": "2025-10-10T06:00:00Z",
+      "duration": 45,
+      "location": {
+        "address": "Park West, Central Park, New York, NY",
+        "coordinates": {
+          "latitude": 40.7829,
+          "longitude": -73.9654
+        }
+      },
+      "difficulty": "Beginner",
+      "imageURL": "https://images.pexels.com/photos/3822906/pexels-photo-3822906.jpeg",
+      "description": "Start your day with a peaceful yoga session in the beautiful Park West area of Central Park. This beginner-friendly class focuses on gentle stretches and basic poses perfect for all skill levels. We'll practice mindful breathing while enjoying the fresh morning air and beautiful surroundings. Bring your own mat and water bottle. All poses can be modified for different abilities.",
+      "shortDescription": "Peaceful morning yoga session in Central Park, perfect for beginners",
+      "hostId": "user1",
+      "hostName": "John Smith",
+      "rsvpCount": 8,
+      "rsvpList": ["user2", "user3", "user4", "user5"],
+      "createdAt": "2025-01-01T12:00:00Z",
+      "updatedAt": "2025-01-01T12:00:00Z"
+    },
+    {
+      "id": "event2",
+      "title": "City 5K River Run",
+      "type": "Run",
+      "dateTime": "2025-10-12T07:00:00Z",
+      "duration": 60,
+      "location": {
+        "address": "Riverside Park, Manhattan, New York, NY",
+        "coordinates": {
+          "latitude": 40.7959,
+          "longitude": -73.9731
+        }
+      },
+      "difficulty": "Intermediate",
+      "imageURL": "https://images.pexels.com/photos/2402777/pexels-photo-2402777.jpeg",
+      "description": "Join us for an energizing 5K run along the scenic Hudson River. This intermediate-level run maintains a steady pace perfect for building endurance. The route offers beautiful views of the river and city skyline. We'll start and finish at the Riverside Park pavilion. Post-run refreshments and socializing included. Great for runners looking to improve their time or meet new running partners.",
+      "shortDescription": "Scenic 5K run along the Hudson River with stunning city views",
+      "hostId": "user3",
+      "hostName": "Mike Davis",
+      "rsvpCount": 15,
+      "rsvpList": ["user1", "user2", "user4"],
+      "createdAt": "2025-01-02T12:00:00Z",
+      "updatedAt": "2025-01-02T12:00:00Z"
+    },
+    {
+      "id": "event3",
+      "title": "Community Volleyball Match",
+      "type": "Match",
+      "dateTime": "2025-10-15T16:00:00Z",
+      "duration": 90,
+      "location": {
+        "address": "Columbia University Gymnasium, New York, NY",
+        "coordinates": {
+          "latitude": 40.8075,
+          "longitude": -73.9626
+        }
+      },
+      "difficulty": "Mixed",
+      "imageURL": "https://images.pexels.com/photos/8007200/pexels-photo-8007200.jpeg",
+      "description": "Friendly community volleyball match open to players of all skill levels. We'll form balanced teams based on experience to ensure everyone has fun and gets good playing time. Indoor court with professional net and equipment provided. Great opportunity to learn new skills, get exercise, and meet fellow sports enthusiasts. Beginners are especially welcome - we'll help you learn the basics!",
+      "shortDescription": "Fun volleyball match for all skill levels in a welcoming community setting",
+      "hostId": "user3",
+      "hostName": "Mike Davis",
+      "rsvpCount": 12,
+      "rsvpList": ["user1", "user2", "user5"],
+      "createdAt": "2025-01-03T12:00:00Z",
+      "updatedAt": "2025-01-03T12:00:00Z"
+    },
+    {
+      "id": "event4",
+      "title": "Sunset Hatha Yoga",
+      "type": "Yoga",
+      "dateTime": "2025-10-17T18:00:00Z",
+      "duration": 50,
+      "location": {
+        "address": "Coney Island Beach, Brooklyn, NY",
+        "coordinates": {
+          "latitude": 40.5755,
+          "longitude": -73.9707
+        }
+      },
+      "difficulty": "Low",
+      "imageURL": "https://images.pexels.com/photos/4056528/pexels-photo-4056528.jpeg",
+      "description": "Experience the magic of sunset yoga on beautiful Coney Island Beach. This gentle Hatha yoga class focuses on slow, deliberate movements and deep breathing. Perfect for unwinding after a long day while watching the sun set over the ocean. We'll practice basic poses suitable for all levels, with emphasis on relaxation and mindfulness. Bring a towel or beach mat. Weather permitting - check for updates.",
+      "shortDescription": "Relaxing beach yoga session during golden hour with ocean views",
+      "hostId": "user1",
+      "hostName": "John Smith",
+      "rsvpCount": 20,
+      "rsvpList": ["user2", "user3", "user4", "user5"],
+      "createdAt": "2025-01-04T12:00:00Z",
+      "updatedAt": "2025-01-04T12:00:00Z"
+    },
+    {
+      "id": "event5",
+      "title": "Trailblazers Trail Run",
+      "type": "Run",
+      "dateTime": "2025-10-20T07:30:00Z",
+      "duration": 75,
+      "location": {
+        "address": "Inwood Hill Park Trail, Manhattan, NY",
+        "coordinates": {
+          "latitude": 40.8719,
+          "longitude": -73.9252
+        }
+      },
+      "difficulty": "Advanced",
+      "imageURL": "https://images.pexels.com/photos/2088170/pexels-photo-2088170.jpeg",
+      "description": "Challenge yourself with an advanced trail run through Manhattan's last natural forest. This demanding route includes hills, uneven terrain, and technical sections that will test your endurance and agility. Experienced trail runners only - you should be comfortable running 5+ miles on varied terrain. Stunning views of the Hudson River and native wildlife. Safety briefing included. Bring trail running shoes and plenty of water.",
+      "shortDescription": "Challenging trail run through Manhattan's natural forest for experienced runners",
+      "hostId": "user2",
+      "hostName": "Sarah Johnson",
+      "rsvpCount": 8,
+      "rsvpList": ["user3", "user5"],
+      "createdAt": "2025-01-05T12:00:00Z",
+      "updatedAt": "2025-01-05T12:00:00Z"
+    },
+    {
+      "id": "event6",
+      "title": "Weekend Family Fun Run",
+      "type": "Run",
+      "dateTime": "2025-10-22T09:00:00Z",
+      "duration": 30,
+      "location": {
+        "address": "Yankee Stadium, Bronx, NY",
+        "coordinates": {
+          "latitude": 40.8296,
+          "longitude": -73.9262
+        }
+      },
+      "difficulty": "All Ages",
+      "imageURL": "https://images.pexels.com/photos/2402777/pexels-photo-2402777.jpeg",
+      "description": "Perfect family-friendly run designed for participants of all ages and fitness levels. Short distance with optional walking breaks makes this ideal for children and adults running together. Route circles the famous Yankee Stadium area with fun stops and activities along the way. Kids under 12 run free with participating adult. Post-run snacks and family photos included. Strollers welcome on designated paths.",
+      "shortDescription": "Family-friendly fun run around Yankee Stadium, perfect for all ages",
+      "hostId": "user3",
+      "hostName": "Mike Davis",
+      "rsvpCount": 25,
+      "rsvpList": ["user1", "user2", "user4", "user5"],
+      "createdAt": "2025-01-06T12:00:00Z",
+      "updatedAt": "2025-01-06T12:00:00Z"
+    },
+    {
+      "id": "event7",
+      "title": "City Football Friendly",
+      "type": "Match",
+      "dateTime": "2025-10-24T15:00:00Z",
+      "duration": 90,
+      "location": {
+        "address": "Randalls Island Sports Complex, New York, NY",
+        "coordinates": {
+          "latitude": 40.7947,
+          "longitude": -73.9206
+        }
+      },
+      "difficulty": "Amateur",
+      "imageURL": "https://images.pexels.com/photos/1171084/pexels-photo-1171084.jpeg",
+      "description": "Casual football match for amateur players looking to have fun and stay active. We'll divide into balanced teams and play a friendly 11v11 match on a full-size field. All skill levels welcome - emphasis is on fun, fair play, and good sportsmanship. Equipment provided including balls and cones. Bring water, shin guards, and cleats if you have them. Great way to meet fellow football enthusiasts and get a good workout!",
+      "shortDescription": "Friendly amateur football match on full-size field with balanced teams",
+      "hostId": "user3",
+      "hostName": "Mike Davis",
+      "rsvpCount": 18,
+      "rsvpList": ["user1", "user2", "user5"],
+      "createdAt": "2025-01-07T12:00:00Z",
+      "updatedAt": "2025-01-07T12:00:00Z"
+    },
+    {
+      "id": "event8",
+      "title": "Mindful Stretch Session",
+      "type": "Yoga",
+      "dateTime": "2025-10-26T12:00:00Z",
+      "duration": 40,
+      "location": {
+        "address": "Bryant Park Corporate Area, Manhattan, NY",
+        "coordinates": {
+          "latitude": 40.7536,
+          "longitude": -73.9832
+        }
+      },
+      "difficulty": "Yoga",
+      "imageURL": "https://images.pexels.com/photos/3822906/pexels-photo-3822906.jpeg",
+      "description": "Perfect lunchtime break featuring gentle stretching and mindfulness exercises. This session is designed for busy professionals who want to relieve stress and tension from desk work. Simple stretches that can be done in work clothes, focusing on neck, shoulders, and back. No mat needed - we'll use the park's green space. Great way to recharge during your lunch hour and return to work feeling refreshed and centered.",
+      "shortDescription": "Lunch break stretch session designed for busy professionals in Bryant Park",
+      "hostId": "user1",
+      "hostName": "John Smith",
+      "rsvpCount": 15,
+      "rsvpList": ["user2", "user4", "user5"],
+      "createdAt": "2025-01-08T12:00:00Z",
+      "updatedAt": "2025-01-08T12:00:00Z"
+    },
+    {
+      "id": "event9",
+      "title": "CrossFit Community WOD",
+      "type": "Run",
+      "dateTime": "2025-10-28T06:30:00Z",
+      "duration": 45,
+      "location": {
+        "address": "Brooklyn Bridge Park Fitness Area, Brooklyn, NY",
+        "coordinates": {
+          "latitude": 40.7018,
+          "longitude": -73.9969
+        }
+      },
+      "difficulty": "High",
+      "imageURL": "https://images.pexels.com/photos/2402777/pexels-photo-2402777.jpeg",
+      "description": "High-intensity community workout featuring CrossFit-style exercises. This challenging Workout of the Day (WOD) includes bodyweight movements, cardio, and functional fitness exercises. Designed for experienced fitness enthusiasts who want to push their limits. Modifications available but basic fitness level required. Beautiful Brooklyn Bridge views provide motivation during tough intervals. Bring water and towel. Safety briefing and warm-up included.",
+      "shortDescription": "High-intensity CrossFit workout with Brooklyn Bridge views for serious fitness enthusiasts",
+      "hostId": "user2",
+      "hostName": "Sarah Johnson",
+      "rsvpCount": 12,
+      "rsvpList": ["user3", "user5"],
+      "createdAt": "2025-01-09T12:00:00Z",
+      "updatedAt": "2025-01-09T12:00:00Z"
+    },
+    {
+      "id": "event10",
+      "title": "Kids Soccer Clinic",
+      "type": "Match",
+      "dateTime": "2025-10-30T11:00:00Z",
+      "duration": 60,
+      "location": {
+        "address": "PS 158 School Field, Queens, NY",
+        "coordinates": {
+          "latitude": 40.7282,
+          "longitude": -73.7949
+        }
+      },
+      "difficulty": "Family & Kids",
+      "imageURL": "https://images.pexels.com/photos/8007200/pexels-photo-8007200.jpeg",
+      "description": "Fun soccer clinic designed specifically for children ages 6-12 and their families. Professional youth coach will teach basic soccer skills including dribbling, passing, and shooting in a supportive, non-competitive environment. Parents encouraged to participate alongside their kids. All equipment provided including age-appropriate soccer balls and cones. Healthy snacks and awards for all participants. Great introduction to soccer for beginners or skill development for young players.",
+      "shortDescription": "Youth soccer clinic for kids 6-12 with family participation and professional coaching",
+      "hostId": "user3",
+      "hostName": "Mike Davis",
+      "rsvpCount": 30,
+      "rsvpList": ["user1", "user4", "user5"],
+      "createdAt": "2025-01-10T12:00:00Z",
+      "updatedAt": "2025-01-10T12:00:00Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "comment1",
+      "eventId": "event1",
+      "userId": "user2",
+      "userName": "Sarah Johnson",
+      "userPhotoURL": "",
+      "content": "This looks amazing! I've been wanting to try morning yoga. Is it okay if I'm a complete beginner?",
+      "createdAt": "2025-01-15T14:30:00Z"
+    },
+    {
+      "id": "comment2",
+      "eventId": "event1",
+      "userId": "user1",
+      "userName": "John Smith",
+      "userPhotoURL": "",
+      "content": "Absolutely! This class is perfect for beginners. I'll provide modifications for all poses and we go at a comfortable pace.",
+      "createdAt": "2025-01-15T15:00:00Z"
+    },
+    {
+      "id": "comment3",
+      "eventId": "event2",
+      "userId": "user4",
+      "userName": "Emma Wilson",
+      "userPhotoURL": "",
+      "content": "What's the typical pace for this run? I usually do about 9-minute miles.",
+      "createdAt": "2025-01-16T10:00:00Z"
+    },
+    {
+      "id": "comment4",
+      "eventId": "event3",
+      "userId": "user5",
+      "userName": "Alex Thompson",
+      "userPhotoURL": "",
+      "content": "Haven't played volleyball since college but this sounds like fun! Looking forward to it.",
+      "createdAt": "2025-01-17T12:00:00Z"
+    },
+    {
+      "id": "comment5",
+      "eventId": "event4",
+      "userId": "user3",
+      "userName": "Mike Davis",
+      "userPhotoURL": "",
+      "content": "Beach yoga sounds perfect for unwinding. Do we need to bring anything special?",
+      "createdAt": "2025-01-18T16:00:00Z"
+    }
+  ]
+}
